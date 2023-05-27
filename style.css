@@ -37,9 +37,18 @@ header li{
     font-size: 20px;
 }
 
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
 
 iframe#zenocelular{
     display: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
 }
 
 
