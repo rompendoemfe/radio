@@ -43,28 +43,56 @@ header li a{
 }
 
 
-iframe#zenocelular{
-    display: none;
-}
-
 header li a:hover{
     text-decoration: underline;
 }
 
-
-
-
-
-
-@media screen and (max-width: 941px) {
-
-iframe#zenopc{
-    display: none;
+.player{
+    margin: 1cm 0 0 1cm;
 }
 
-iframe#zenocelular{
-    display: block;
+.quadro1{
+    display: flex;
 }
+
+.q1{
+    height: 4cm;
+    width: 10cm;
+    margin: 1cm 0 0 15cm;
+ background-color: rgb(228, 228, 228);
+}
+
+.q1 h2{
+    margin: 0 0 0 10px;
+}
+
+.q1 h3{
+    margin: 0 0 0 20px;
+}
+
+.q1 p{
+    margin-left: 20px;
+}
+
+.atualizando{
+    margin-top: 5cm;
+}
+
+@media screen and (max-width: 1200px) {
+
+    
+    .q1{
+       margin: 0 0 0 5cm; 
+    }
+    
+    
+    }
+
+
+
+@media screen and (max-width: 940px) {
+
+
   
 header {
     height: 2cm;
@@ -95,8 +123,13 @@ header li{
     margin-top: 10px;
 }
 
+.quadro1{
+    display: block;
+}
 
-
+.q1{
+   margin: 0 0 0 0; 
+}
 
 
 }
